@@ -1,0 +1,101 @@
+body{
+	background-color: black;
+	height: 540px;
+}
+.trapezoid {
+	border-bottom: 50px solid rgb(27, 29, 114);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 160px;
+    transform: rotate(-117deg);
+    margin-left: -1px;
+    margin-top: 34px;
+	transition: transform 2s ease;
+}
+
+
+.trapezoid1 {
+	border-bottom: 50px solid rgb(27, 29, 114);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 132px;
+  transform:rotate(-180deg);
+  margin-left: 83px;
+  margin-top: 31px;
+}
+.trapezoid2 {
+    position:fixed;
+	border-bottom: 50px solid rgb(27, 29, 114);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 160px;
+    transform: rotate(117deg);
+    margin-left: -95px;
+    margin-top: 34px;
+
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 62px solid transparent;
+	border-right: 61px solid transparent;
+	border-top: 123px solid rgb(27, 29, 114);
+	margin-left: -97px;
+    margin-top:5px;
+}
+.triangle-down1 {
+	width: 0;
+	height: 0;
+	border-left: 54px solid transparent;
+	border-right: 54px solid transparent;
+	border-top: 75px solid rgb(27, 29, 114);
+	margin-left: 121px;
+    margin-top:17px;
+}
+
+.trio{
+	margin-top: 50px;
+	margin-left: -8px;
+}
+
+.circle{
+	height: 360px;
+	width: 360px;
+	border: 20px solid rgb(27, 29, 114);
+	border-radius: 50%;
+	display:block;
+	margin-left: 35%;
+	margin-top: -8%;
+	animation: beat .5s infinite alternate; 
+}
+.circle1{
+	height: 330px;
+	width: 330px;
+	border: 5px solid rgb(27, 29, 114);
+	border-radius: 50%;
+	margin-left: 10px;
+    margin-top: 10px;
+	
+}
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+
+.text{
+	display: flex;
+	color: rgb(11, 52, 141);
+	margin-top: -125px;
+	margin-left: 43%;
+	text-shadow: 2px 3px 4px rgb(105, 133, 168);
+}
+.text h1{
+	font-size: 160px;
+}
+
+.text h2{
+	font-size: 90px;
+	margin-top: 170px;
+}
